@@ -24,7 +24,7 @@ bool initialize() {
 bool setup(SDL_Window** window, SDL_Renderer** renderer, TTF_Font** font, SDL_Surface** screen, SDL_Texture** texture) {
 
 	// loading font
-	*font = TTF_OpenFont("/graphics/gamecontinue.ttf", 25);
+	*font = TTF_OpenFont("graphics/gamecontinue.ttf", 25);
 	if (*font == NULL) {
 		printf("could not find font\n");
 		return false;
