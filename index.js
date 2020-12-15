@@ -115,6 +115,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
         if (!check) throw msg + new Error().stack;
       }
   Module['FS_createPath']('/', 'graphics', true, true);
+Module['FS_createPath']('/', 'configurations', true, true);
 
       /** @constructor */
       function DataRequest(start, end, audio) {
@@ -187,7 +188,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
     }
   
    }
-   loadPackage({"files": [{"filename": "/graphics/gamecontinue.ttf", "start": 0, "end": 20120, "audio": 0}], "remote_package_size": 20120, "package_uuid": "76becbe8-725c-401c-8c97-3dce97be3a0f"});
+   loadPackage({"files": [{"filename": "/graphics/gamecontinue.ttf", "start": 0, "end": 20120, "audio": 0}, {"filename": "/graphics/blue.png", "start": 20120, "end": 20264, "audio": 0}, {"filename": "/graphics/download.png", "start": 20264, "end": 23270, "audio": 0}, {"filename": "/graphics/green.png", "start": 23270, "end": 23414, "audio": 0}, {"filename": "/graphics/minus.png", "start": 23414, "end": 25263, "audio": 0}, {"filename": "/graphics/play.png", "start": 25263, "end": 27426, "audio": 0}, {"filename": "/graphics/plus.png", "start": 27426, "end": 28021, "audio": 0}, {"filename": "/graphics/red.png", "start": 28021, "end": 28626, "audio": 0}, {"filename": "/graphics/return.png", "start": 28626, "end": 51742, "audio": 0}, {"filename": "/graphics/upload.png", "start": 51742, "end": 74035, "audio": 0}, {"filename": "/graphics/white.png", "start": 74035, "end": 74578, "audio": 0}, {"filename": "/configurations/gg_1003.txt", "start": 74578, "end": 76477, "audio": 0}, {"filename": "/configurations/gg_1103.txt", "start": 76477, "end": 78431, "audio": 0}, {"filename": "/configurations/gg_2006.txt", "start": 78431, "end": 81921, "audio": 0}, {"filename": "/configurations/glider_gun.txt", "start": 81921, "end": 81970, "audio": 0}, {"filename": "/configurations/glider.txt", "start": 81970, "end": 82011, "audio": 0}, {"filename": "/configurations/randomvirus_3k.txt", "start": 82011, "end": 90332, "audio": 0}, {"filename": "/configurations/viruschaos.txt", "start": 90332, "end": 94748, "audio": 0}], "remote_package_size": 94748, "package_uuid": "2b7cd4b0-5261-4621-968b-afc056bbedbf"});
   
   })();
   
